@@ -1,4 +1,19 @@
-# Objetos
+# Información
+
+Para mantener el estandar, orden y homogeneidad:
+
+* Programar en inglés y respetando la guía de estilo del lenguaje/framwork.
+* Hacer commits limpos y claros.
+	* Buen commit: `git commit -m "Agregada opción para borrar noticias viejas"`.
+	* Mal commit: `git commit -m "final"`, `git commit -m "fix"`.
+* Evitar `git add --all` o similares a menos que de verdad estemos seguro de lo que vamos a commitear.
+* Pueden usar aplicaciones como la de Github para tener más control de lo que subimos en cada commit.
+* Para evitar el típico merge que sucede cuando hacemos pull y habían cambios en la nube que no teníamos se recomienda:
+  * Tener los commits listos con todos nuestros cambios.
+  * Hacer `git pull --rebase`, esto se guarda los commits locales al bolsillo, baja los que estén en la nube y pone los nuestos encima de la última versión bajada.
+  * Ahora sí hacemos `git push`. 
+
+## Objetos
 - Noticia
   - Título
   - URL
@@ -7,7 +22,7 @@
   - Tags
   - Imagen
   - Fecha de publicación
-  - Fecha de adquisición (`created_at`)
+  - Fecha de adquisición (created_at)
   - Fecha actualización
 
 - Comentario
@@ -27,13 +42,13 @@
   - Correo
   - Preferencias/Gustos
 
-# Formato de comunicación:
+## Formato de comunicación:
 - JSON
 - Métodos GET/POST a la URI del componente.
 
 Puertos de Comunicación entre Componentes
 
-# Sobre los componentes
+## Sobre los componentes
 Cada componente separado en un repositorio. Estos deben tener:
 - .gitignore
 - README.md
