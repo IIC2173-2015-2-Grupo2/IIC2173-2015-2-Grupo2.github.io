@@ -1,3 +1,8 @@
+# Proyecto
+
+* Arquitectura del sistema en general: [architecture.pdf](architecture.pdf)
+* Avance presentado: [avance.pdf](avance.pdf)
+
 # Información
 
 Para mantener el estandar, orden y homogeneidad:
@@ -11,36 +16,7 @@ Para mantener el estandar, orden y homogeneidad:
 * Para evitar el típico merge que sucede cuando hacemos pull y habían cambios en la nube que no teníamos se recomienda:
   * Tener los commits listos con todos nuestros cambios.
   * Hacer `git pull --rebase`, esto se guarda los commits locales al bolsillo, baja los que estén en la nube y pone los nuestos encima de la última versión bajada.
-  * Ahora sí hacemos `git push`. 
-
-## Objetos
-- Noticia
-  - Título
-  - URL
-  - Reseña
-  - Fuente
-  - Tags
-  - Imagen
-  - Fecha de publicación
-  - Fecha de adquisición (created_at)
-  - Fecha actualización
-
-- Comentario
-  - Usuario
-  - Contenido
-  - Valoración
-  - Fecha de publicación
-
-- Fuente de noticia
-  - Nombre
-  - Logo
-  - Imagen
-  - URL
-
-- Usuario
-  - Nombre
-  - Correo
-  - Preferencias/Gustos
+  * Ahora sí hacemos `git push`.
 
 ## Formato de comunicación:
 - JSON
